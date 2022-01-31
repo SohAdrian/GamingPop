@@ -19,7 +19,7 @@ crossorigin="anonymous">
 				src='c:out value="${game.gamePicture}"' />
 			</a>
 			<div>
-				<p><c:out value="${game.gameName}"/></p>
+				<p><c:out value="${game.gameName}"></p>
 				<br>
 				<button class="button"
 					href="<%=request.getContextPath()%>/GameReview.jsp">SeeReview</button>
